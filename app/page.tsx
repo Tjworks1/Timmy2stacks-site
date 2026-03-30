@@ -50,7 +50,7 @@ export default function Home() {
 </h2>
     
     <img
-      src="/me.jpg"
+      src="/me.JPG"
       alt="Timmy2stacks"
       className="w-60 h-60 rounded-full mx-auto object-cover border-2 border-green-500 relative"
     />
