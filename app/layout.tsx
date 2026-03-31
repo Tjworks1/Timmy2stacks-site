@@ -17,6 +17,14 @@ export const metadata: Metadata = {
   description: "I build fast, modern websites for small businesses that want to stand out and get more clients.",
 };
 
+export const metadata2: Metadata = {
+  title: "Timmy2Stacks",
+  description: "Websites that convert",
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
