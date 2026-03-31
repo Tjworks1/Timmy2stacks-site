@@ -8,7 +8,7 @@ export async function POST(req) {
 
     const data = await resend.emails.send({
       from: "onboarding@resend.dev",
-      to: "trichmond215", // ← this
+      to: "trichmond215@gmail.com", // ← this
       subject: `New message from ${name}`,
       html: `
         <p><strong>Name:</strong> ${name}</p>
