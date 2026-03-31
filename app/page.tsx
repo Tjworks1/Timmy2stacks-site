@@ -1,3 +1,4 @@
+import ContactForm from "@/components/ContactForm";
 import { Zap, Target, Shield } from "lucide-react";
 
 export default function Home() {
@@ -165,7 +166,7 @@ export default function Home() {
       </section>
 <div className="h-px bg-gradient-to-r from-transparent via-gray-800 to-transparent my-20" />
       {/* FINAL CTA */}
-      <section id="contact" className="mt-28 text-center pb-20 px-6 transition duration-700 ease-in-out">
+      {/* <section id="contact" className="mt-28 text-center pb-20 px-6 transition duration-700 ease-in-out">
         <h2 className="text-4xl font-bold mb-4">
           Ready to Get Your Website?
         </h2>
@@ -179,7 +180,10 @@ export default function Home() {
         >
           Get More Customers Online?
         </a>
-      </section>
+      </section> */}
+
+      <ContactForm />
+
           <p className="text-green-400 mb-6 font-semibold text-center">
   Limited spots available this week
 </p>
