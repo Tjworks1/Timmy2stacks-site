@@ -174,7 +174,7 @@ export default function Home() {
         </p>
 
         <a
-          href="mailto:your@email.com"
+          href="mailto: customer-support@2da97126-19a0-4a42-890d-7671cd2367a3.mail.conversations.godaddy.com"
           className="bg-white text-black px-8 py-4 rounded-xl font-semibold text-lg hover:scale-105 transition duration-300"
         >
           Get More Customers Online?
