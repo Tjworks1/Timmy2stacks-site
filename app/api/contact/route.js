@@ -8,7 +8,7 @@ export async function POST(req) {
 
     const data = await resend.emails.send({
       from: "onboarding@resend.dev",
-      to: " customer-support@2da97126-19a0-4a42-890d-7671cd2367a3.mail.conversations.godaddy.com", // ← this
+      to: "trichmond215", // ← this
       subject: `New message from ${name}`,
       html: `
         <p><strong>Name:</strong> ${name}</p>
