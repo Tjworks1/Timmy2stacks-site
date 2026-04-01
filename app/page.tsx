@@ -75,7 +75,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-green-500 blur-2xl opacity-20 rounded-full"></div>
 
           <img
-            src="/me.jpg"
+            src="/me.JPG"
             alt="Timmy2stacks"
             className="w-56 h-56 rounded-full mx-auto object-cover border border-green-500 relative hover:scale-105 transition"
           />
